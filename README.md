@@ -311,4 +311,4 @@ The core workflow is implemented and functionally tested against the demonstrati
 
 ## Author
 
-Developed as a portfolio project demonstrating practical use of Oracle SQL, PL/SQL, Oracle APEX, and OCI Generative AI for financial data quality and remediation workflows.
+Kokab Shabanipour Developed as a portfolio project demonstrating practical use of Oracle SQL, PL/SQL, Oracle APEX, and OCI Generative AI for financial data quality and remediation workflows.

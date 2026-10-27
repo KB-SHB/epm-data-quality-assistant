@@ -1,0 +1,11 @@
+-- EPM Data Quality Assistant
+-- Keeps UPDATED_AT current whenever a tracking row is inserted or updated.
+
+CREATE OR REPLACE TRIGGER EPM_REMED_TRACK_BIU
+BEFORE INSERT OR UPDATE
+ON EPM_REMEDIATION_TRACKING
+FOR EACH ROW
+BEGIN
+    :NEW.UPDATED_AT := SYSTIMESTAMP;
+END;
+/
